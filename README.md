@@ -13,8 +13,8 @@ Além de praticar novos aprendizados, também valeu para praticar e rever tópic
 
 # Resultado Alvo vs Resultado Alcançado
 O objetivo era deixar o layou nos formatos abaixo para desktop e mobile:
-![Desktop](/src/style/images/design/desktop-design.jpg)
-![Mobil](/src/style/images/design/mobile-design.jpg)
+![Desktop](/dist/desktop-design.jpg)
+![Mobil](/dist/mobile-design.jpg)
 
 Eu alcancei os reusltados abaixo para Desktop e Mobile:
 ![Desktop](/dist/Captura%20de%20tela%202023-05-17%20082543.png)
