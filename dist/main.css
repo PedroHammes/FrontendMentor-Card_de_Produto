@@ -13,10 +13,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: auto;
 }
 
 .card {
-  margin-top: 8%;
   display: flex;
   flex-direction: column;
   width: 375px;
@@ -25,10 +26,13 @@ body {
   border-radius: 8px;
 }
 
-.image-product-mobile {
-  width: 375px;
+.image-product {
+  width: 100%;
   height: 250px;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0px 0px;
+  background-image: url(113818bc746dc8e64ffb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .product-info {
@@ -68,7 +72,7 @@ body {
 }
 .product-info .product-price .current-price {
   font-family: "Fraunces", sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   color: hsl(158deg, 36%, 37%);
 }
 .product-info .product-price .full-price {
@@ -94,5 +98,103 @@ body {
 .product-info button .buy-icon {
   width: 16px;
   background-color: hsl(158deg, 36%, 37%);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 2%;
+}
+
+@media screen and (max-width: 480px) {
+  .card .product-type {
+    font-size: 16px;
+  }
+  .card .product-title {
+    font-size: 34px;
+  }
+  .card .product-description {
+    font-size: 16px;
+  }
+  .card .product-price .current-price {
+    font-size: 34px;
+  }
+  .card .product-price .full-price {
+    font-size: 16px;
+  }
+  .card button {
+    font-size: 14px;
+  }
+  .card button .buy-icon {
+    width: 18px;
+  }
+}
+@media screen and (max-width: 401px) {
+  .card {
+    width: 90%;
+    margin: 0% 2% 0% 2%;
+  }
+  .card .product-info .product-type {
+    font-size: 14px;
+  }
+  .card .product-info .product-title {
+    font-size: 24px;
+  }
+  .card .product-info .product-description {
+    font-size: 14px;
+  }
+  .card .product-info .product-price .current-price {
+    font-size: 24px;
+  }
+  .card .product-info .product-price .full-price {
+    font-size: 14px;
+  }
+  .card .product-info button {
+    width: 100%;
+    font-size: 14px;
+  }
+  .card .product-info button .buy-icon {
+    width: 16px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .card {
+    flex-direction: row;
+    width: 750px;
+    height: 400px;
+    background-color: rgb(176, 203, 216);
+  }
+  .card .image-product {
+    width: 375px;
+    height: auto;
+    background-image: url(c96d43af17111fe78e96.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 0px 0px 8px;
+  }
+  .card .product-info {
+    width: 375px;
+    height: auto;
+  }
+  .card .product-info .product-type {
+    font-size: 14px;
+  }
+  .card .product-info .product-title {
+    font-size: 32px;
+  }
+  .card .product-info .product-description {
+    font-size: 14px;
+  }
+  .card .product-info .product-price .current-price {
+    font-size: 32px;
+  }
+  .card .product-info .product-price .full-price {
+    font-size: 14px;
+  }
+  .card .product-info button {
+    font-size: 14px;
+  }
+  .card .product-info button .buy-icon {
+    width: 16px;
+  }
 }
 
